@@ -1,0 +1,12 @@
+# this is how to set up git on ubuntu linux on windows WSL
+
+sudo apt-get install git
+git config --global user.name "user-name"
+git config --global user.name "user-email"
+git init FILE
+nano README.txt
+git add README.txt
+git commit -m "commiting"
+git remote add origin https://github.com/tsheetiz/bashUBUNTU.GIT # whatever the repository link is
+git push origin master
+
